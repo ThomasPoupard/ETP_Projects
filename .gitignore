@@ -1,0 +1,5 @@
+# ansys workbench backup folder
+*.backup/
+
+# vscode stuff
+.vscode/

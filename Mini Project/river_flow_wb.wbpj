@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="25.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">2132</timestamp-max>
+    <timestamp-max valType="Int64">2855</timestamp-max>
     <framework-build-version valType="String">25.2.170.0</framework-build-version>
     <external-version-string valType="String">2025 R2</external-version-string>
-    <last-saved-utc valType="String">10/20/2026 12:27:44</last-saved-utc>
+    <last-saved-utc valType="String">10/26/2026 21:46:30</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -35,7 +35,11 @@
 "89188916-0e38-4d0f-97f7-1c1d47a419c1": "/Schematic/ComponentTemplate:SimulationMeshingModelCellTemplate",
 "43a0a523-7ca3-432d-a8f1-8391d85d464b": "/Schematic/ComponentTemplate:FluentSetupCellTemplate",
 "064cced4-a3e4-41aa-9480-3a2afa331527": "/Schematic/ComponentTemplate:FluentResultsCellTemplate",
-"933a3ce3-bf46-4471-aba9-8bd31ae94950": "/Schematic/ComponentTemplate:CFDPostTemplate"
+"933a3ce3-bf46-4471-aba9-8bd31ae94950": "/Schematic/ComponentTemplate:CFDPostTemplate",
+"ff2d6f3b-6f61-4ead-9173-c64644db6753": "/FileContainer/FileReference:F4",
+"7806f04e-982d-4d6b-b13b-2cfbb212e05e": "/FileTypesContainer/FileType:MeshFileType",
+"6f0dee04-ba11-49a0-92d1-331c9fb8d19c": "/FileTypesContainer/FileType:FluentMeshFileType",
+"7c4c758b-1c54-4abf-a349-bd7c653eb388": "/FileContainer/FileReference:F5"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -49,7 +53,9 @@
 "e7651fa6-88f0-4b09-90a3-f474e918a981": "/Setup/SetupData:SetupData",
 "e20944f5-9814-4f2d-ac7f-f000a06a7589": "/Solution/FluentSolution:SolutionDataProvider",
 "90832f74-6fff-4c5a-a799-0e68eff69d4d": "/Results/SolutionDataLink:SolutionDataProvider",
-"ffc9578c-fbbc-463f-a9c8-a9da29ed83c6": "/Results/CFDResults:Results Source"
+"ffc9578c-fbbc-463f-a9c8-a9da29ed83c6": "/Results/CFDResults:Results Source",
+"cde865c3-03c9-41ce-a79d-da0998ab961e": "/Mesh/MechanicalModel:MechanicalModel",
+"e7baee46-ab8f-4aee-83c0-e068d3dc95a0": "/Mesh/MechanicalMeshFile:FluentMesh"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -82,7 +88,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2087, "Input": 1513, "Output": 1513}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2846, "Input": 1513, "Output": 1513}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F1" Version="1.0">
@@ -93,12 +99,22 @@
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F2</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$06324f10-670d-4e50-83da-820f3d01ef2f, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 6}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$06324f10-670d-4e50-83da-820f3d01ef2f, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 36}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F3</object-name>
         <member-data valType="String">{"DisplayText": "FFF.agdb", "FileType": $$0957844c-23a7-4f6d-a727-227bace55c7c, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\DM\FFF.agdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F4" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F4</object-name>
+        <member-data valType="String">{"DisplayText": "FFF.mshdb", "FileType": $$7806f04e-982d-4d6b-b13b-2cfbb212e05e, "DependentFiles": [], "ContainerAssociations": ["Mesh"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\FFF.mshdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F5" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F5</object-name>
+        <member-data valType="String">{"DisplayText": "FFF.1.msh", "FileType": $$6f0dee04-ba11-49a0-92d1-331c9fb8d19c, "DependentFiles": [], "ContainerAssociations": ["Mesh"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\FFF\MECH\FFF.1.msh", "ReferenceCount": 1}</member-data>
       </Object>
     </Container>
     <Container Name="Messages" Version="1.0">
@@ -117,13 +133,14 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 1519, "Input": 1518, "Output": 1517}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2853, "Input": 2789, "Output": 1517}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
-        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {}, "Parameters": {}, "ParameterErrors": {}, "CurrentValues": {}, "ParameterStatus": {}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": False, "UpdateOrder": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Mesh in FFF"}, "Parameters": {}, "ParameterErrors": {}, "CurrentValues": {}, "ParameterStatus": {}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": False, "UpdateOrder": 1}</member-data>
+        <properties-setByUserFlag-data valType="String">["IsDataModelValid"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Parameters/DesignPointReportSetting:Design Points Report Setting" Version="1.0">
         <class-type valType="String">DesignPointReportSetting</class-type>
@@ -138,7 +155,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2069, "Input": 2073, "Output": 1520}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2849, "Input": 2579, "Output": 1520}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/SchematicSettings:Schematic Settings" Version="1.0">
@@ -215,7 +232,7 @@
       <Object Name="/Schematic/Component:Mesh" Version="1.0">
         <class-type valType="String">Component</class-type>
         <object-name valType="String">Mesh</object-name>
-        <member-data valType="String">{"DisplayText": "Mesh", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh", "_overwrittenUpdatable": None, "Template": $$89188916-0e38-4d0f-97f7-1c1d47a419c1, "InSystem": $$3bbe08bf-9883-45ce-8920-e0a9eccc6d84, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$61ab6d76-8fc2-43e5-9b65-cb64242f8b96, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+        <member-data valType="String">{"DisplayText": "Mesh", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh", "_overwrittenUpdatable": None, "Template": $$89188916-0e38-4d0f-97f7-1c1d47a419c1, "InSystem": $$3bbe08bf-9883-45ce-8920-e0a9eccc6d84, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$61ab6d76-8fc2-43e5-9b65-cb64242f8b96, "Transfer": None}]]}, "Notes": None, "UsedLicenses": {"cfd_base": 2, "cfd_preppost": 2, "cfd_preppost_pro": 2}, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
       </Object>
       <Object Name="/Schematic/Component:Setup" Version="1.0">
         <class-type valType="String">Component</class-type>
@@ -284,7 +301,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 1849, "Input": 1846, "Output": 1846}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2790, "Input": 1846, "Output": 1846}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/HpsContainer/HpsSettings:HPS Settings Entity" Version="1.0">
@@ -296,6 +313,11 @@
         <class-type valType="String">HpsProjectIdMap</class-type>
         <object-name valType="String">HPS ProjectId Map Entity</object-name>
         <member-data valType="String">{"DisplayText": "HPS ProjectId Map Entity", "HpsProjectIdMap": {}}</member-data>
+      </Object>
+      <Object Name="/HpsContainer/ConnectionInfo:ConnectionInfo" Version="1.0">
+        <class-type valType="String">ConnectionInfo</class-type>
+        <object-name valType="String">ConnectionInfo</object-name>
+        <member-data valType="String">{"DisplayText": "ConnectionInfo", "IsConnected": False, "ProjectId": None, "LastSyncStateId": "00000000-0000-0000-0000-000000000000", "ConnectionSettingsModified": False, "DesignPointsBeingEvaluated": [], "ParameterToHpsId": {}, "DpReferenceToProjectId": {}, "ProjectUpdateProjectId": None}</member-data>
       </Object>
     </Container>
     <Container Name="PyAddinManager" Version="1.0">

@@ -35,7 +35,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">2130</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2132, "Input": 2128, "Output": 2128}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2855, "Input": 2128, "Output": 2128}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">FFF</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -53,22 +53,23 @@
       <Object Name="/Geometry/TransferData:Geometry" Version="1.0">
         <class-type valType="String">TransferData</class-type>
         <object-name valType="String">Geometry</object-name>
-        <member-data valType="String">{"DisplayText": "Geometry", "ConnectionKeys": ["d129b4d5-80db-4473-85bd-f0fe3b694f5e"], "Data": None}</member-data>
+        <member-data valType="String">{"DisplayText": "Geometry", "ConnectionKeys": ["d129b4d5-80db-4473-85bd-f0fe3b694f5e"], "Data": $$86a5080c-54b1-4195-8da4-0005f30d81ec}</member-data>
       </Object>
     </Container>
     <Container Name="Mesh" Version="1.0">
       <container-type valType="String">Ansys.Meshing.Core.Addin:SimulationModel</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2010, "Input": 2016, "Output": 2002}</last-modified-by-usage>
+      <last-updated valType="Int64">2848</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2847, "Input": 2832, "Output": 2832}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 2130, "Mesh": 2502, "Setup": 0, "Solution": 0, "Results": 0}</last-update-regen-times>
       <unique-system-dir valType="String">FFF</unique-system-dir>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Mesh/SimulationConnection:SimulationConnection" Version="1.0">
         <class-type valType="String">SimulationConnection</class-type>
         <object-name valType="String">SimulationConnection</object-name>
-        <member-data valType="String">{"DisplayText": "SimulationConnection", "_IsAssemblyMeshing": None, "_MeshingSolverSetting": None, "Caption": "SimulationConnection", "EventIdToDataReferenceMap": {}, "DSIdToDataReferenceMap": {}, "Attributes": {}}</member-data>
+        <member-data valType="String">{"DisplayText": "SimulationConnection", "_IsAssemblyMeshing": False, "_MeshingSolverSetting": 0, "Caption": "SimulationConnection", "EventIdToDataReferenceMap": {}, "DSIdToDataReferenceMap": {"13": {"CellModel": $$cde865c3-03c9-41ce-a79d-da0998ab961e}, "10": {"CellModel": $$cde865c3-03c9-41ce-a79d-da0998ab961e}, "14": {"CellModel": $$cde865c3-03c9-41ce-a79d-da0998ab961e}}, "Attributes": {}}</member-data>
       </Object>
       <Object Name="/Mesh/MechanicalSystemType:SystemType for Fluids|Any|FLUENT" Version="1.0">
         <class-type valType="String">MechanicalSystemType</class-type>
@@ -78,7 +79,7 @@
       <Object Name="/Mesh/MeshingMesh:MeshingMeshDataObject" Version="1.0">
         <class-type valType="String">MeshingMesh</class-type>
         <object-name valType="String">MeshingMeshDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "MeshingMeshDataObject", "Caption": "Mesh", "MeshId": -1}</member-data>
+        <member-data valType="String">{"DisplayText": "MeshingMeshDataObject", "Caption": "Mesh", "MeshId": 14}</member-data>
         <custom-data>
           <AttentionRequired valType="String">False</AttentionRequired>
           <ImportedMeshFileType valType="String">0</ImportedMeshFileType>
@@ -89,8 +90,9 @@
             <FluentMesh>
               <Name valType="String">FluentMesh</Name>
               <Guid0 valType="String">8f7703dd-bd71-4e89-9cdb-43fa40b3ac61</Guid0>
-              <UpToDate valType="String">False</UpToDate>
-              <value-keys valType="String">{"Name": System.String, "Guid0": System.String, "UpToDate": System.Boolean}</value-keys>
+              <Data valType="String">e7baee46-ab8f-4aee-83c0-e068d3dc95a0</Data>
+              <UpToDate valType="String">True</UpToDate>
+              <value-keys valType="String">{"Name": System.String, "Guid0": System.String, "Data": System.String, "UpToDate": System.Boolean}</value-keys>
             </FluentMesh>
           </transferDataMap>
         </custom-data>
@@ -108,7 +110,7 @@
       <Object Name="/Mesh/OutputsGeneratedManagerDataEntityType:OutputsGeneratedManagerObject" Version="1.0">
         <class-type valType="String">OutputsGeneratedManagerDataEntityType</class-type>
         <object-name valType="String">OutputsGeneratedManagerObject</object-name>
-        <member-data valType="String">{"DisplayText": "OutputsGeneratedManagerObject", "outputGeneratedTimes": {}}</member-data>
+        <member-data valType="String">{"DisplayText": "OutputsGeneratedManagerObject", "outputGeneratedTimes": {"FluentMesh": 2832}}</member-data>
       </Object>
       <Object Name="/Mesh/MeshProperties:MeshProperties" Version="1.0">
         <class-type valType="String">MeshProperties</class-type>
@@ -124,6 +126,26 @@
         <class-type valType="String">ContainerConnections</class-type>
         <object-name valType="String">ModelContainerConnections</object-name>
         <member-data valType="String">{"DisplayText": "ModelContainerConnections", "Connections": {"Geometry": {"$$86a5080c-54b1-4195-8da4-0005f30d81ec": {"Geometry": ["d129b4d5-80db-4473-85bd-f0fe3b694f5e"]}}}}</member-data>
+      </Object>
+      <Object Name="/Mesh/MechanicalModel:MechanicalModel" Version="1.0">
+        <class-type valType="String">MechanicalModel</class-type>
+        <object-name valType="String">MechanicalModel</object-name>
+        <member-data valType="String">{"DisplayText": "MechanicalModel", "Caption": "Model", "File": $$ff2d6f3b-6f61-4ead-9173-c64644db6753, "MeshFile": None, "EdaFile": None, "SpaceClaimMeshFile": None, "ModelId": 10, "PrototypeId": 13, "ModelHash": "1a9a900e-9c0b-459a-b253-118d710c6a9c", "GeometryHash": "1a9a900e-9c0b-459a-b253-118d710c6a9c", "IsResetNotRequired": False}</member-data>
+        <custom-data>
+          <File valType="String">ff2d6f3b-6f61-4ead-9173-c64644db6753</File>
+          <FilePath valType="String"></FilePath>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ParameterValueModified valType="String">False</ParameterValueModified>
+          <IsModifiedDueToModelAssemblyPropertyChange valType="String">False</IsModifiedDueToModelAssemblyPropertyChange>
+          <IsModifiedDueToMeshConversionPropertyChange valType="String">False</IsModifiedDueToMeshConversionPropertyChange>
+          <AttachType valType="String">0</AttachType>
+          <value-keys valType="String">{"File": System.String, "FilePath": System.String, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean, "IsModifiedDueToModelAssemblyPropertyChange": System.Boolean, "IsModifiedDueToMeshConversionPropertyChange": System.Boolean, "AttachType": System.Int32}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Mesh/MechanicalMeshFile:FluentMesh" Version="1.0">
+        <class-type valType="String">MechanicalMeshFile</class-type>
+        <object-name valType="String">FluentMesh</object-name>
+        <member-data valType="String">{"DisplayText": "FluentMesh", "TransferFile": $$7c4c758b-1c54-4abf-a349-bd7c653eb388}</member-data>
       </Object>
     </Container>
     <Container Name="Setup" Version="1.0">
