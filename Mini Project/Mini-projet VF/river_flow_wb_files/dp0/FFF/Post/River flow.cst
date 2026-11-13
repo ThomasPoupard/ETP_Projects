@@ -1,6 +1,11 @@
-# State file created:  2026/11/07 20:56:54
+# State file created:  2026/11/13 15:09:09
 # CFX-25.2
 
+CALCULATOR:
+  Case Name = Case River flow
+  Function = area
+  Verbose = Off
+END
 COMMENT:User Data
   Comment Exists = True
   Comment Heading = User Data
@@ -16,9 +21,9 @@ DATA READER:
   Construct Variables From Fourier Coefficients = True
   Current Case List = Case River flow
   Current Case Name = Z:\Mini Project\river_flow_wb_files\dp0\FFF\Fluent\FFF.1-\
-1-00221.dat.h5
+2-00223.dat.h5
   Current Results File = Z:\Mini Project\river_flow_wb_files\dp0\FFF\Fluent\\
-FFF.1-1-00221.dat.h5
+FFF.1-2-00223.dat.h5
   Current Timestep = -1
   Current Timevalue = 0
   Edit Case Names = false
@@ -46,9 +51,9 @@ FFF.1-1-00221.dat.h5
   CASE:Case River flow
     Construct Variables From Fourier Coefficients = True
     Current Case Name = Z:\Mini Project\river_flow_wb_files\dp0\FFF\Fluent\\
-FFF.1-1-00221.dat.h5
+FFF.1-2-00223.dat.h5
     Current Results File = Z:\Mini Project\river_flow_wb_files\dp0\FFF\Fluent\\
-FFF.1-1-00221.dat.h5
+FFF.1-2-00223.dat.h5
     Current Timestep = -1
     Current Timevalue = 0
     File Angle Units = rad
@@ -495,11 +500,12 @@ END
 LIBRARY:
   CEL:
     EXPRESSIONS:
-      Accumulated Time Step = 221
+      Accumulated Time Step = 223
       Current Phase Position = 0
-      Current Time Step = 221
+      Current Time Step = 223
       Phase = Current Phase Position
-      Sequence Step = 221
+      Sequence Step = 223
+      T Rhin out = areaAve(Temperature)@rhine_out
       Time = 0 [s]
       atstep = Accumulated Time Step
       ctstep = Current Time Step
