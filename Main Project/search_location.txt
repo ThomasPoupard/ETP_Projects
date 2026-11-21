@@ -1,0 +1,24 @@
+Data sources:
+
+- Registre des polluants SwissPRTR: https://www.bafu.admin.ch/fr/swissprtr-fr
+- Géodonnées autour de l'eau de l'OFEV: https://www.bafu.admin.ch/fr/eau-donnees-sig
+- FOEN basic monitoring network for surfaces water: https://data.geo.admin.ch/browser/index.html#/collections/ch.bafu.hydrologie-hydromessstationen/items/hydrologie-hydromessstationen?.asset=asset-hydrologie-hydromessstationen_2056-shp-zip (attention c'est en LV03 EPSG:21781 contrairement à ce qui est indiqué)
+- Water temperature monitoring stations: https://data.geo.admin.ch/browser/index.html#/collections/ch.bafu.hydrologie-wassertemperaturmessstationen/items/hydrologie-wassertemperaturmessstationen
+
+Criteria for the choice of location:
+
+* Facility not too far downstream of a monitoring station measuring both discharge and temperature
+* River relatively straight over the study area, no branching, no significant stream flowing into the river
+* Pollutant easily characterizable => total chloride / total fluoride / total phosphorus
+* Facility with data from latest available year (2024)
+* Only point source, water as the medium
+
+Location chosen:
+
+Monitoring station = Aare-Thun, X = 2613230 [m] Y = 1179280 [m], lat = 46.764570196 [°N] lon = 7.611825140 [°E]
+Facility = ARA Thunersee ID = 171, X = 2612150 [m] Y = 1181000 [m], lat = 46.780062736 [°N] lon = 7.597732691 [°E], pollutant = Gesamtphosphor
+
+Downstream coordinates = lat = 46.797320 [°N] lon = 7.582020 [°E] (might want to reduce depending on size of pollutant plume)
+
+Generate splines to smoothen geometry stemming from a polyline
+

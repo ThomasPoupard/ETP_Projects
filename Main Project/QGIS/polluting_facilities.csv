@@ -1,0 +1,32 @@
+Year,Facility,Facility ID,North coordinate (CH1903+),East coordinate (CH1903+),Pollutants
+2024,"AIB, ARA Birs",101.0,1265800.0,2614032.0,Gesamtphosphor
+2024,ARA Chur,128.0,1193250.0,2759400.0,Gesamtphosphor
+2024,ARA Rhein AG,386.0,1264350.0,2619416.0,Chloride (als Gesamt-Cl)/Fluoride (als Gesamt-F)/Gesamtphosphor
+2024,ARA Thunersee,171.0,1181000.0,2612150.0,Gesamtphosphor
+2024,ARA Worblental,120.0,1203300.0,2601200.0,Gesamtphosphor
+2024,Abwasserreinigungsanlage,323.0,1281276.0,2688654.0,Gesamtphosphor
+2024,Abwasserreinigungsanlage REAL,299.0,1215700.0,2666800.0,Chloride (als Gesamt-Cl)/Gesamtphosphor
+2024,Abwasserverband Aarau und Umgebung,112.0,1250470.0,2647260.0,Gesamtphosphor
+2024,Abwasserverband Altenrhein,363.0,1262059.0,2760376.0,Gesamtphosphor
+2024,Abwasserwerk Rosenbergsau,418.0,1254600.0,2766000.0,Gesamtphosphor
+2024,Arxada AG,435.0,1127608.0,2634886.0,Chloride (als Gesamt-Cl)/Fluoride (als Gesamt-F)
+2024,CIMO Compagnie Industrielle de Monthey,115.0,1122500.0,2563500.0,Chloride (als Gesamt-Cl)/Fluoride (als Gesamt-F)
+2024,Consorzio depurazione acque Lugano e dintorni,261.0,1096293.0,2714823.0,Gesamtphosphor
+2024,DSM Nutritional Products AG - Werk Sisseln,16.0,1266464.0,2640650.0,Chloride (als Gesamt-Cl)/Gesamtphosphor
+2024,Deponie Tännlimoos,305.0,1230300.0,2685000.0,Chloride (als Gesamt-Cl)
+2024,Dottikon Exclusive Synthesis AG,56.0,1247252.0,2660420.0,Fluoride (als Gesamt-F)
+2024,GVRZ Kläranlage Schönau,291.0,1227850.0,2676110.0,Chloride (als Gesamt-Cl)/Gesamtphosphor
+2024,Kläranlage Bibertal-Hegau,318.0,1283245.0,2703370.0,Gesamtphosphor
+2024,LONZA AG,268.0,1127354.0,2634640.0,Chloride (als Gesamt-Cl)/Fluoride (als Gesamt-F)
+2024,ProRheno AG,306.0,1270300.0,2612200.0,Chloride (als Gesamt-Cl)/Fluoride (als Gesamt-F)/Gesamtphosphor
+2024,Schweizer Salinen AG,159.0,1264500.0,2617880.0,Chloride (als Gesamt-Cl)
+2024,Schweizer Salinen AG,184.0,1268400.0,2629380.0,Chloride (als Gesamt-Cl)
+2024,Siegfried Evionnaz SA,181.0,1113564.0,2567969.0,Gesamtphosphor
+2024,"Stadt Zürich, ERZ Entsorgung + Recycling Zürich",99.0,1250425.0,2678684.0,Chloride (als Gesamt-Cl)/Gesamtphosphor
+2024,Stadtwerk Winterthur,37.0,1263456.0,2692492.0,Gesamtphosphor
+2024,Station d'épuration d'Aïre,294.0,1116840.0,2496193.0,Chloride (als Gesamt-Cl)/Gesamtphosphor
+2024,Station d'épuration de Fribourg,317.0,1184815.0,2579265.0,Gesamtphosphor
+2024,Zweckverband der Abwasserreinigung Solothurn-Emme,77.0,1229700.0,2610000.0,Chloride (als Gesamt-Cl)/Gesamtphosphor
+2024,ara region bern ag,368.0,1202330.0,2599220.0,Gesamtphosphor
+2024,erzo ARA,392.0,1239224.0,2636632.0,Gesamtphosphor
+2024,Épura SA (Lausanne),196.0,1152390.0,2535180.0,Gesamtphosphor
